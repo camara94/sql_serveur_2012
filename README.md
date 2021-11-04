@@ -15,3 +15,13 @@ A l'issue de cette formation **SQL Server 2012**, vous serez capable de passer l
 Noureddine fera de vous un excellent DBA et vous aidera à obtenir votre certification MCSA.
 
 Durant des formations ultérieures, il vous accompagnera pour l'obtention des certifications MCSE : Data Platform et Business Intelligence.
+
+## Objectifs
+* Pouvoir installer et configurer SQL Server 2012,
+* Pouvoir gérer les fichiers de base de données SQL Server 2012,
+* Définir une stratégie de sauvegarde et de restauration des bases de données SQL Server 2012,
+* Analyse et compréhension du SQL Server 2012,
+* Transfert des données dans et à partir de SQL Server 2012,
+* Pouvoir automatiser les tâches d’administration sous SQL Server 2012,
+* Comprendre l’architecture de SQL Server 2012,
+* Répliquer les données entre les instances SQL Server 2012.
