@@ -1,0 +1,2 @@
+# sql_serveur_2012
+SQL Server est un système de gestion de base de données lancé par Microsoft. Il a pour fonction de stocker les données et de vérifier les contraintes d’intégrité définies.Les administrateurs de données SQL Server sont en très forte demande partout dans le monde.Votre expert base de données, Noureddine DRISSI, vous a préparé cette formation SQL Server 2012 (70-462) qui vous fournit les connaissances et les compétences nécessaires pour administrer et maintenir un environnement de base de données Microsoft SQL Server 2012 .
