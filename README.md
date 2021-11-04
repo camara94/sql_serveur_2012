@@ -25,3 +25,10 @@ Durant des formations ultérieures, il vous accompagnera pour l'obtention des ce
 * Pouvoir automatiser les tâches d’administration sous SQL Server 2012,
 * Comprendre l’architecture de SQL Server 2012,
 * Répliquer les données entre les instances SQL Server 2012.
+
+## Prérequis
+* Avoir suivi la formation Langage SQL est un plus,
+* Connaissances de base du système d’exploitation Windows,
+* Expérience professionnelle de Transact-SQL,
+* Expérience professionnelle des bases de données relationnelles,
+* Expérience en matière de conception de bases de données.
