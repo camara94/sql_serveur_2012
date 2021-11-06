@@ -257,3 +257,7 @@ La taille compressée ne descend pas en dessous de la taille lors de la declarat
 ## Création d'index dans une table et groupe de fichier(tablespace)
 
 ![image 26](images/26.png)
+
+## Le partitionnement
+
+![image 27](images/27.png)
