@@ -43,3 +43,6 @@ Durant des formations ultérieures, il vous accompagnera pour l'obtention des ce
 * pour se connecter à l'instance par default
   * <code>hostname</code> celle-ci va afficher le nom de l'ordinateur sur le réseau puis on copie ce nom
   * <code> sqlcmd -E -S hostname</code>
+  * Pour afficher la liste de toutes les bases de données <code>SELECT name FROM sys.databases;</code>
+  
+* Pour executer un script avec **SQLCMD**, <code>sqlcmd -E -S **nomdelinstance** -i **cheminduscript**</code>
