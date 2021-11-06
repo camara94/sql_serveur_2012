@@ -279,4 +279,9 @@ La taille compressée ne descend pas en dessous de la taille lors de la declarat
 ![image 31](images/31.png)
 
 ## Exemple
+
 ![image 32](images/32.png)
+
+## Schema de partitionnement
+
+![image 33](images/33.png)
