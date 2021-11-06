@@ -49,3 +49,21 @@ Durant des formations ultérieures, il vous accompagnera pour l'obtention des ce
 * Pour utiliser une variable avec **SQLCMD** <code>sqlcmd -E -S DESKTOP-MO6K1QN\SSIS -i C:\Users\damaro\sql_serveur_2012\TP\variable.sql -v database="msdb"</code>
 
 * Pour enregistrer la sortie dans un fichier et utiliser une variable avec **SQLCMD** <code>sqlcmd -E -S DESKTOP-MO6K1QN\SSIS -i C:\Users\damaro\sql_serveur_2012\TP\variable.sql -v database="msdb" -o C:\Users\damaro\sql_serveur_2012\output.txt</code>
+
+## Modification des ressources
+Nous pouvons modifier les valeurs soit avec **MSSM**, soit avec la procedure **sp_configure**
+<pre>
+<code>
+USE master;
+GO
+
+EXEC sp_configure 'show advanced option', '1';
+GO
+
+EXEC sp_configure 'show advanced option';
+GO
+
+RECONFIGURE WITH OVERRIDE
+GO
+</code>
+<pre>
