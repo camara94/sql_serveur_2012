@@ -90,3 +90,10 @@ GO
 
 ## Une extension
 ![image 6](images/6.png)
+
+## Types d'extension
+
+* une **extension mixte**: est une extension qui peut contenir les données de plusieurs tables.
+* une **extension uniforme ou spécialisée**: est  une extension qui ne contient que les données d'un seul object.
+![image 7](images/7.png)
+
