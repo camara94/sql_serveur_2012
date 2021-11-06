@@ -217,3 +217,7 @@ ADD LOG FILE
 ## Affichage du nom de la base courant
 
 <code>SELECT db_name();</code>
+
+## Affichage de l'ID de la base courant
+
+<code>SELECT db_id();</code>
