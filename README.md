@@ -237,3 +237,9 @@ La taille compressée ne descend pas en dessous de la taille lors de la declarat
 
 ## Utilisation des groupe de fichier
 ![image 20](images/20.png)
+
+## Syntaxe de création d'un groupe de fichier
+
+![image 21](images/21.png)
+
+![image 22](images/22.png)
