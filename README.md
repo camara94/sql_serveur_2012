@@ -232,3 +232,5 @@ La taille compressée ne descend pas en dessous de la taille lors de la declarat
 
 ![image 18](images/18.png)
 
+## Groupe de fichier
+![image 19](images/19.png)
