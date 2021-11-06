@@ -114,4 +114,9 @@ GO
 ![image 11](images/11.png)
 
 ## Gestion d'une base de données
+
 ![image 12](images/12.png)
+
+## Modification d'une base de données
+
+![image 13](images/13.png)
