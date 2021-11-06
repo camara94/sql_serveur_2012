@@ -270,6 +270,10 @@ La taille compressée ne descend pas en dessous de la taille lors de la declarat
 
 ![image 29](images/29.png)
 
-## Comment ça marche le partitionnement
+## Comment ça marche la Fonction de partitionnement 
 
 ![image 30](images/30.png)
+
+## Création de fonction de partitionnement
+
+![image 31](images/31.png)
