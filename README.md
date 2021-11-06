@@ -108,3 +108,7 @@ GO
 ## Syntaxe complete
 
 ![image 10](images/10.png)
+
+## Cas pratique
+
+![image 11](images/11.png)
