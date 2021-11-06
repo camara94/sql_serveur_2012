@@ -249,3 +249,7 @@ La taille compressée ne descend pas en dessous de la taille lors de la declarat
 ![image 23](images/23.png)
 
 ![image 24](images/24.png)
+
+## Création de table dans un groupe de fichier(tablespace)
+
+![image 25](images/25.png)
