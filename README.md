@@ -36,4 +36,10 @@ Durant des formations ultérieures, il vous accompagnera pour l'obtention des ce
 ## Quelques commandes
 * <code>USE gestion</code>: l'instruction **USE** permet de changer la base de travail
 
-fgfdgfd
+## SQLCMD
+
+* pour afficher de l'aide <code>qslcmd -?</code>
+
+* pour se connecter à l'instance par default
+  * <code>hostname</code> celle-ci va afficher le nom de l'ordinateur sur le réseau puis on copie ce nom
+  * <code> sqlcmd -E -S hostname</code>
