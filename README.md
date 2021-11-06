@@ -221,3 +221,14 @@ ADD LOG FILE
 ## Affichage de l'ID de la base courant
 
 <code>SELECT db_id();</code>
+
+![image 16](images/16.png)
+
+**NB**:
+La taille compressée ne descend pas en dessous de la taille lors de la declaration.
+
+## compresser la taille d'un fichier
+![image 17](images/17.png)
+
+![image 18](images/18.png)
+
