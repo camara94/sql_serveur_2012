@@ -253,3 +253,7 @@ La taille compressée ne descend pas en dessous de la taille lors de la declarat
 ## Création de table dans un groupe de fichier(tablespace)
 
 ![image 25](images/25.png)
+
+## Création d'index dans une table et groupe de fichier(tablespace)
+
+![image 26](images/26.png)
