@@ -46,3 +46,4 @@ Durant des formations ultérieures, il vous accompagnera pour l'obtention des ce
   * Pour afficher la liste de toutes les bases de données <code>SELECT name FROM sys.databases;</code>
   
 * Pour executer un script avec **SQLCMD**, <code>sqlcmd -E -S **nomdelinstance** -i **cheminduscript**</code>
+* Pour utiliser une variable avec **SQLCMD** <code>sqlcmd -E -S DESKTOP-MO6K1QN\SSIS -i C:\Users\damaro\sql_serveur_2012\TP\variable.sql -v database="msdb"</code>
