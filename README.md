@@ -100,3 +100,7 @@ GO
 ## Création d'une base de données
 
 ![image 8](images/8.png)
+
+## En transact SQL
+
+![image 9](images/9.png)
