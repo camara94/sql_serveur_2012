@@ -32,3 +32,7 @@ Durant des formations ultérieures, il vous accompagnera pour l'obtention des ce
 * Expérience professionnelle de Transact-SQL,
 * Expérience professionnelle des bases de données relationnelles,
 * Expérience en matière de conception de bases de données.
+
+## Quelques commandes
+* <code>USE gestion</code>: l'instruction **USE** permet de changer la base de travail
+
