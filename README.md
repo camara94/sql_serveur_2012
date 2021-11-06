@@ -80,3 +80,6 @@ GO
 <code>SELECT * FROM ::fn_dblog(null, null)</code>
 
 ![image 3](images/3.png)
+
+## Caractéristique des fichiers
+![image 4](images/4.png)
