@@ -207,3 +207,5 @@ ADD LOG FILE
 </code>
 </pre>
 
+## Libérer de l'espace disque inutilisé
+![image 14](images/14.png)
