@@ -83,3 +83,6 @@ GO
 
 ## Caractéristique des fichiers
 ![image 4](images/4.png)
+
+## Structure des fichiers
+![image 5](images/5.png)
