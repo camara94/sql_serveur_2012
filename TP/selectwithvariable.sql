@@ -1,1 +1,1 @@
-SELECT * FROM 
+SELECT $(cols) FROM $(base).$(schema).$(tab);
