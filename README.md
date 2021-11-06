@@ -86,3 +86,7 @@ GO
 
 ## Structure des fichiers
 ![image 5](images/5.png)
+
+
+## Une extension
+![image 6](images/6.png)
