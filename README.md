@@ -270,3 +270,6 @@ La taille compressée ne descend pas en dessous de la taille lors de la declarat
 
 ![image 29](images/29.png)
 
+## Comment ça marche le partitionnement
+
+![image 30](images/30.png)
