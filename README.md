@@ -97,3 +97,6 @@ GO
 * une **extension uniforme ou spécialisée**: est  une extension qui ne contient que les données d'un seul object.
 ![image 7](images/7.png)
 
+## Création d'une base de données
+
+![image 8](images/8.png)
