@@ -104,3 +104,7 @@ GO
 ## En transact SQL
 
 ![image 9](images/9.png)
+
+## Syntaxe complete
+
+![image 10](images/10.png)
