@@ -120,3 +120,90 @@ GO
 ## Modification d'une base de données
 
 ![image 13](images/13.png)
+
+## Changement d'un fichier logique
+
+<pre>
+<code>
+ALTER DATABASE mawatta 
+MODIFY FILE
+(
+	NAME=ma_mere,
+	NEWNAME=mawatta01
+)
+</code>
+</pre>
+
+<pre>
+<code>
+ALTER DATABASE mawatta 
+MODIFY FILE
+(
+	NAME=mawatta01,
+	MAXSIZE=300MB,
+	FILEGROWTH=0
+)
+</code>
+</pre>
+
+<pre>
+<code>
+ALTER DATABASE mawatta 
+MODIFY FILE
+(
+	NAME=mawatta01,
+	SIZE=16MB
+)
+</code>
+</pre>
+
+<pre>
+<code>
+ALTER DATABASE mawatta 
+MODIFY FILE
+(
+	NAME=mawatta02,
+	MAXSIZE=100MB
+)
+</code>
+</pre>
+
+<pre>
+<code>
+ALTER DATABASE mawatta 
+MODIFY FILE
+(
+	NAME=mawatta_log01,
+	SIZE=13MB
+)
+</code>
+</pre>
+
+<pre>
+<code>
+ALTER DATABASE mawatta 
+ADD FILE
+(
+	NAME=mawatta03,
+	FILENAME='c:\mawatta\data\mawatta03.ndf',
+	SIZE=12MB,
+	MAXSIZE=120MB,
+	FILEGROWTH=5%
+)
+</code>
+</pre>
+
+<pre>
+<code>
+ALTER DATABASE mawatta 
+ADD LOG FILE
+(
+	NAME=mawatta_log02,
+	FILENAME='c:\mawatta\logs\mawatta_log02.ndf',
+	SIZE=10MB,
+	MAXSIZE=125MB,
+	FILEGROWTH=10%
+)
+</code>
+</pre>
+
