@@ -266,3 +266,7 @@ La taille compressée ne descend pas en dessous de la taille lors de la declarat
 
 ![image 28](images/28.png)
 
+## Mise en oeuvre du partitionnement
+
+![image 29](images/29.png)
+
