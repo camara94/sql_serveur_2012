@@ -74,4 +74,3 @@ GO
 
 ## Architecture d'une base de données
 ![image 2](images/2.png)
-sdqd
