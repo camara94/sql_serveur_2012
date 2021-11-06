@@ -277,3 +277,6 @@ La taille compressée ne descend pas en dessous de la taille lors de la declarat
 ## Création de fonction de partitionnement
 
 ![image 31](images/31.png)
+
+## Exemple
+![image 32](images/32.png)
