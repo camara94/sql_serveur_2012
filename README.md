@@ -71,3 +71,6 @@ GO
 
 ## Configuration d'une base de données 
 ![image 1](images/1.png)
+
+## Architecture d'une base de données
+![image 2](images/2.png)
