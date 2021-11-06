@@ -1,0 +1,11 @@
+name                                                                                                                            
+--------------------------------------------------------------------------------------------------------------------------------
+CATEGORIES                                                                                                                      
+CLIENTS                                                                                                                         
+COMMANDES                                                                                                                       
+DETAILS_COMMANDES                                                                                                               
+EMPLOYES                                                                                                                        
+FOURNISSEURS                                                                                                                    
+PRODUITS                                                                                                                        
+
+(7 lignes affectées)
