@@ -213,3 +213,7 @@ ADD LOG FILE
 ## Shrink database
 
 ![image 15](images/15.png)
+
+## Affichage du nom de la base courant
+
+<code>SELECT db_name();</code>
