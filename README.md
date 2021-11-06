@@ -66,4 +66,8 @@ GO
 RECONFIGURE WITH OVERRIDE
 GO
 </code>
-<pre>
+</pre>
+
+
+## Configuration d'une base de données 
+![image 1](images/1.png)
