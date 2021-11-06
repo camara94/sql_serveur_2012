@@ -234,3 +234,6 @@ La taille compressée ne descend pas en dessous de la taille lors de la declarat
 
 ## Groupe de fichier
 ![image 19](images/19.png)
+
+## Utilisation des groupe de fichier
+![image 20](images/20.png)
