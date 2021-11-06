@@ -74,3 +74,9 @@ GO
 
 ## Architecture d'une base de données
 ![image 2](images/2.png)
+
+## Pour lire les fichier journaux
+
+<code>SELECT * FROM ::fn_dblog(null, null)</code>
+
+![image 3](images/3.png)
