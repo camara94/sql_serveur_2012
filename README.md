@@ -209,3 +209,7 @@ ADD LOG FILE
 
 ## Libérer de l'espace disque inutilisé
 ![image 14](images/14.png)
+
+## Shrink database
+
+![image 15](images/15.png)
