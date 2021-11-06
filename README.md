@@ -112,3 +112,6 @@ GO
 ## Cas pratique
 
 ![image 11](images/11.png)
+
+## Gestion d'une base de données
+![image 12](images/12.png)
