@@ -397,4 +397,6 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 
 ## crypte un champs
 
-![image 60](images/61.png) 
+![image 61](images/61.png) 
+
+![image 62](images/62.png) 
