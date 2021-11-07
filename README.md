@@ -424,3 +424,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Sauvegarde différentielle de la base de données
 
 ![image 68](images/68.png)
+
+## Sauvegarde de journal de transaction de la base de données
+
+![image 69](images/69.png)
