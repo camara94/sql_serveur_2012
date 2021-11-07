@@ -338,3 +338,7 @@ La taille compressée ne descend pas en dessous de la taille lors de la declarat
 c'est la durée à travers laquelle sql serveur ou tout serveur de base de donées synchronise synchrone les page de 8K dans fichiers data(.mdf, .ndf), mais on peut modifier le checkpoint par defaut à travers cette commande ci-dessous:
 
 ![image 46](images/46.png)
+
+## Mode de récupération
+
+![image 47](images/47.png)
