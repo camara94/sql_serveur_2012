@@ -293,3 +293,7 @@ La taille compressée ne descend pas en dessous de la taille lors de la declarat
 ## Exemple transact-sql
 
 ![image 35](images/35.png)
+
+## Création des objets de partition 
+
+![image 36](images/36.png)
