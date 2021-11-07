@@ -321,3 +321,7 @@ La taille compressée ne descend pas en dessous de la taille lors de la declarat
 ## Syntaxe d'une transaction
 
 ![image 42](images/42.png)
+
+## Les vérrous 
+
+![image 43](images/43.png)
