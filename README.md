@@ -325,3 +325,7 @@ La taille compressée ne descend pas en dessous de la taille lors de la declarat
 ## Les vérrous 
 
 ![image 43](images/43.png)
+
+## La journalisation sous sql serveur 2012
+
+![image 44](images/44.png)
