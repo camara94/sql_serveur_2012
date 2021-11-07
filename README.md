@@ -413,7 +413,10 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 
 ![image 65](images/65.png)
 
-## Les methodes de sauvegarde dsd
+## Les methodes de sauvegarde
 
 ![image 66](images/66.png)
 
+## Sauvegarde complète de base de données
+
+![image 67](images/67.png)
