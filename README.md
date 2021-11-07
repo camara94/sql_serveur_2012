@@ -383,4 +383,8 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 
 ![image 57](images/57.png)
 
+## Création de certificats
+
+![image 58](images/58.png)
+
 
