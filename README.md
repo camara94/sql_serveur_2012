@@ -313,3 +313,7 @@ La taille compressée ne descend pas en dessous de la taille lors de la declarat
 ## Modification des options de configuration d'une base de données
 
 ![image 40](images/40.png)
+
+## Les transactions 
+
+![image](images/41.png)
