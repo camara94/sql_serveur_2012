@@ -417,6 +417,10 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 
 ![image 66](images/66.png)
 
-## Sauvegarde complète de base de données
+## Sauvegarde complète de la base de données
 
 ![image 67](images/67.png)
+
+## Sauvegarde différentielle de la base de données
+
+![image 68](images/68.png)
