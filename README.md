@@ -416,3 +416,4 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Les methodes de sauvegarde
 
 ![image 66](images/66.png)
+
