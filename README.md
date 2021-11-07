@@ -370,3 +370,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Hiérarchie de chiffrage
 
 ![image 54](images/54.png)
+
+## Clé maître de service
+
+![image 55](images/55.png)
