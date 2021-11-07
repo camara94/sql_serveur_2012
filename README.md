@@ -287,4 +287,9 @@ La taille compressée ne descend pas en dessous de la taille lors de la declarat
 ![image 33](images/33.png)
 
 ## Création d'un schema de partitionnement
+
 ![image 34](images/34.png)
+
+## Exemple transact-sql
+
+![image 35](images/35.png)
