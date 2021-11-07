@@ -354,3 +354,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Mode de récupération: journalisé en bloc
 
 ![image 50](images/50.png)
+
+## Compression des données
+
+![image 51](images/51.png)
