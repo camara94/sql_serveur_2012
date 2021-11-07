@@ -301,3 +301,7 @@ La taille compressée ne descend pas en dessous de la taille lors de la declarat
 ## Configurer une base de données
 
 ![image 37](images/37.png)
+
+## Option de configuration
+
+![image 38](images/38.png)
