@@ -346,3 +346,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Mode de récupération: Simple
 
 ![image 48](images/48.png)
+
+## Mode de récupération: Complet
+
+![image 49](images/49.png)
