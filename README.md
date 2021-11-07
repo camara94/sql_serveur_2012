@@ -329,3 +329,7 @@ La taille compressée ne descend pas en dessous de la taille lors de la declarat
 ## La journalisation sous sql serveur 2012
 
 ![image 44](images/44.png)
+
+## Le fonctionnement des fichiers journaux sous sql serveur 2012
+
+![image 45](images/45.png)
