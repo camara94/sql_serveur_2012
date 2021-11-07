@@ -305,3 +305,7 @@ La taille compressée ne descend pas en dessous de la taille lors de la declarat
 ## Option de configuration
 
 ![image 38](images/38.png)
+
+## Afficher les options de configuration
+
+![image 39](images/39.png)
