@@ -408,3 +408,6 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Pourquoi sauvegarde
 
 ![image 64](images/64.png)
+
+## Les caractéristique d'un sauvegarde
+![image 64](images/64.png)
