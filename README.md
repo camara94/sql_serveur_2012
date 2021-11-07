@@ -350,3 +350,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Mode de récupération: Complet(recommandé)
 
 ![image 49](images/49.png)
+
+## Mode de récupération: journalisé en bloc
+
+![image 50](images/50.png)
