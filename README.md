@@ -378,3 +378,9 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Clé maître de base de données
 
 ![image 56](images/56.png)
+
+## Comment utilisé la maître de base de données
+
+![image 57](images/57.png)
+
+
