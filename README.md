@@ -400,3 +400,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ![image 61](images/61.png) 
 
 ![image 62](images/62.png) 
+
+## decrypte le champs
+
+![image 63](images/63.png) 
