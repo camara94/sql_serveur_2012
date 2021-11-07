@@ -387,4 +387,6 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 
 ![image 58](images/58.png)
 
+## Les clés asymetriques
 
+![image 59](images/59.png)
