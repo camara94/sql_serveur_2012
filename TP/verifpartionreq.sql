@@ -1,0 +1,1 @@
+select YEAR([date_commande]) as 'Année', COUNT(*) as 'nombre par an'  from [mawatta].[dbo].[commande] GROUP BY YEAR([date_commande]) ORDER by YEAR([date_commande]) ;
