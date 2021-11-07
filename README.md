@@ -297,3 +297,7 @@ La taille compressée ne descend pas en dessous de la taille lors de la declarat
 ## Création des objets de partition 
 
 ![image 36](images/36.png)
+
+## Configurer une base de données
+
+![image 37](images/37.png)
