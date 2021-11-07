@@ -403,4 +403,8 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 
 ## decrypte le champs
 
-![image 63](images/63.png) 
+![image 63](images/63.png)
+
+## Pourquoi sauvegarde
+
+![image 64](images/64.png)
