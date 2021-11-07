@@ -366,3 +366,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Certificats
 
 ![image 53](images/53.png)
+
+## Hiérarchie de chiffrage
+
+![image 54](images/54.png)
