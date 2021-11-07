@@ -360,4 +360,9 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ![image 51](images/51.png)
 
 ## Les clés et les certificats
+
 ![image 52](images/52.png)
+
+## Certificats
+
+![image 53](images/53.png)
