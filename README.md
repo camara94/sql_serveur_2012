@@ -410,4 +410,9 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ![image 64](images/64.png)
 
 ## Les caractéristique d'un sauvegarde
-![image 64](images/64.png)
+
+![image 65](images/65.png)
+
+## Les methodes de sauvegarde
+
+![image 66](images/66.png)
