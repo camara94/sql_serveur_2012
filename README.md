@@ -394,3 +394,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Les clés symetriques
 
 ![image 60](images/60.png)
+
+## crypte un champs
+
+![image 60](images/61.png) 
