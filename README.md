@@ -374,3 +374,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Clé maître de service
 
 ![image 55](images/55.png)
+
+## Clé maître de base de données
+
+![image 56](images/56.png)
