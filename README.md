@@ -458,3 +458,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ![image 76](images/76.png)
 
 ## Sauvegarde de groupe de fichiers
+
+![image 77](images/77.png)
