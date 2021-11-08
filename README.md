@@ -428,3 +428,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Sauvegarde de journal de transaction de la base de données
 
 ![image 69](images/69.png)
+
+## Sauvegarde partielle de la base de données
+
+![image 70](images/70.png)
