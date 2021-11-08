@@ -460,3 +460,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Sauvegarde de groupe de fichiers
 
 ![image 77](images/77.png)
+
+## Syntaxe de la Sauvegarde de groupe de fichiers
+
+![image 78](images/78.png)
