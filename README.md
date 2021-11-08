@@ -450,3 +450,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ![image 74](images/74.png)
 
 ## Sauvegarde du journale des transactions
+
+![image 75](images/75.png)
