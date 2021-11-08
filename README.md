@@ -443,4 +443,8 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 
 ## Caractéristique d'une sauvegarde différentielle
 
-![image 72](images/72.png)
+![image 73](images/73.png)
+
+## Syntaxe de la sauvegarde différentielle
+
+![image 74](images/74.png)
