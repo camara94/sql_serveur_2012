@@ -432,3 +432,9 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Sauvegarde partielle de la base de données
 
 ![image 70](images/70.png)
+
+## Destination des sauvegardes
+
+![image 71](images/71.png)
+
+
