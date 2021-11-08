@@ -1,0 +1,1 @@
+RESTORE VERIFYONLY FROM DISK='D:\mesbackupsqlserveur\unitefull.bak'
