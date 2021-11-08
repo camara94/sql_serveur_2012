@@ -1,0 +1,1 @@
+RESTORE VERIFYONLY FROM DISK='$(file_path)'
