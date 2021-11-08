@@ -466,3 +466,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ![image 78](images/78.png)
 
 ## Sauvegarde partielle
+
+![image 79](images/79.png)
