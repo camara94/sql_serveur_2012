@@ -441,4 +441,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 
 ![image 72](images/72.png)
 
+## Caractéristique d'une sauvegarde différentielle
 
