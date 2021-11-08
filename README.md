@@ -448,3 +448,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Syntaxe de la sauvegarde différentielle
 
 ![image 74](images/74.png)
+
+## Sauvegarde du journale des transactions
