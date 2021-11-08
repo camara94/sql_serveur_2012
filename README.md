@@ -452,3 +452,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Sauvegarde du journale des transactions
 
 ![image 75](images/75.png)
+
+## Syntaxe de la Sauvegarde du journale des transactions
+
+![image 76](images/76.png)
