@@ -472,3 +472,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Syntaxe d'une sauvegarde partielle
 
 ![image 80](images/80.png)
+
+## Prérequis des sauvegarde
+
+![image 81](images/81.png)
