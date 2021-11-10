@@ -484,3 +484,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Type de restauration
 
 ![image 83](images/83.png)
+
+## Option de la commande RESTORE
+
+![image 84](images/84.png)
