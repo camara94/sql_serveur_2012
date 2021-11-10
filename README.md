@@ -476,3 +476,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Prérequis des sauvegarde
 
 ![image 81](images/81.png)
+
+## Prérequis des sauvegarde 2
+
+![image 81](images/82.png)
