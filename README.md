@@ -494,3 +494,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ![image 85](images/85.png)
 
 ## Comment ça fonctionne
+
+![image 86](images/86.png)
