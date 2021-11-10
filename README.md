@@ -490,3 +490,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ![image 84](images/84.png)
 
 ## Capture instantannée de base de données
+
+![image 85](images/85.png)
