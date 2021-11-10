@@ -497,7 +497,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 
 ![image 86](images/86.png)
 
-## Comment créer un snapshot
+## Comment créer un snapshot 
 
 ![image 87](images/87.png)
 
