@@ -488,3 +488,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Option de la commande RESTORE
 
 ![image 84](images/84.png)
+
+## Capture instantannée de base de données
