@@ -19,5 +19,10 @@
 --BACKUP LOG gescom TO [unitelog] WITH NOINIT;
 
 --DELETE  FROM [gescom].[stagiaire].[CATEGORIES] WHERE [CODE_CATEGORIE]>90
-SELECT * FROM [gescom].[stagiaire].[CATEGORIES];
+
+
+--RESTORE DATABASE gescom FROM [unitfull] WITH REPLACE, NORECOVERY;
+--RESTORE DATABASE gescom FROM [unitediff] WITH NORECOVERY
+--RESTORE LOG gescom FROM [unitelog] WITH RECOVERY
+--SELECT * FROM [gescom].[stagiaire].[CATEGORIES];
 
