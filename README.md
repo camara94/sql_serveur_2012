@@ -482,3 +482,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ![image 81](images/82.png)
 
 ## Type de restauration
+
+![image 83](images/83.png)
