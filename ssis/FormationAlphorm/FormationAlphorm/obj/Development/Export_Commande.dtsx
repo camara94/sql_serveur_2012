@@ -1,0 +1,1197 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="11/11/2021 3:21:54 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-MO6K1QN"
+  DTS:CreatorName="DESKTOP-MO6K1QN\damaro"
+  DTS:DTSID="{3ECF4315-9AC3-4874-AC8A-CC419CC3BF86}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.128"
+  DTS:LocaleID="1036"
+  DTS:ObjectName="Export_Commande"
+  DTS:PackageType="5"
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{F785BF7C-AC48-4380-AC66-E581A5419156}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-MO6K1QN\SSIS.gescom]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{4E7CB135-9850-4006-BF75-80F982EDDF1F}"
+      DTS:ObjectName="DESKTOP-MO6K1QN\SSIS.gescom">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-MO6K1QN\SSIS;Initial Catalog=gescom;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-MO6K1QN`\SSIS]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{BD29C8CA-E39A-4FE3-961A-8167CD7FA2F7}"
+      DTS:ObjectName="DESKTOP-MO6K1QN`\SSIS">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-MO6K1QN`\SSIS;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[gestionnaire_de_connexions_de_fichiers_plats_1996]"
+      DTS:CreationName="FLATFILE"
+      DTS:Description="Gestionnaire de connexions de fichiers plats 1996"
+      DTS:DTSID="{BE8479F1-3887-4486-B4C4-9B2BB8624E0D}"
+      DTS:ObjectName="gestionnaire_de_connexions_de_fichiers_plats_1996">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1036"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\damaro\sql_serveur_2012\ssis\export_commande_fichier_plat_1996.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="131"
+              DTS:DataPrecision="6"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NO_COMMANDE"
+              DTS:DTSID="{B12269BC-36F2-43B9-82A6-CF348E59D010}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="5"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CODE_CLIENT"
+              DTS:DTSID="{E19ACBE7-B646-4F29-95B6-8A5DC47ABA5E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="131"
+              DTS:DataPrecision="6"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NO_EMPLOYE"
+              DTS:DTSID="{346C7A5B-6EEE-4AEE-A9BF-8DD82559C6C9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="135"
+              DTS:TextQualified="True"
+              DTS:ObjectName="DATE_COMMANDE"
+              DTS:DTSID="{307C2F08-ADFE-49DB-950C-AD0B0D53D3DC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="135"
+              DTS:TextQualified="True"
+              DTS:ObjectName="DATE_ENVOI"
+              DTS:DTSID="{EF9EF027-67B8-4B06-AF4D-DE0E9DE3C524}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="131"
+              DTS:DataPrecision="8"
+              DTS:DataScale="2"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PORT"
+              DTS:DTSID="{B70FEB1A-B452-4260-9FAC-20770368A126}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[gestionnaire_de_connexions_de_fichiers_plats_1997]"
+      DTS:CreationName="FLATFILE"
+      DTS:Description="Destination de fichier plat 1996"
+      DTS:DTSID="{23D91F76-8D23-4BAC-BDD2-59587391036D}"
+      DTS:ObjectName="gestionnaire_de_connexions_de_fichiers_plats_1997">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1036"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\damaro\sql_serveur_2012\ssis\export_commande_fichier_plat_1997.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="131"
+              DTS:DataPrecision="6"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NO_COMMANDE"
+              DTS:DTSID="{EBB25978-9241-4892-9316-8AC9A7847388}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="5"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CODE_CLIENT"
+              DTS:DTSID="{67D589DA-60C3-4AF1-BA80-3048093EDBED}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="131"
+              DTS:DataPrecision="6"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NO_EMPLOYE"
+              DTS:DTSID="{C3F6CF93-2642-44CE-B5DB-CAC534C0F38F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="135"
+              DTS:TextQualified="True"
+              DTS:ObjectName="DATE_COMMANDE"
+              DTS:DTSID="{9F32A4DD-D1A6-45FA-A352-C9FF2F55142D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="135"
+              DTS:TextQualified="True"
+              DTS:ObjectName="DATE_ENVOI"
+              DTS:DTSID="{B5307839-2612-4B22-817B-9AAA6B96D0DB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="131"
+              DTS:DataPrecision="8"
+              DTS:DataScale="2"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PORT"
+              DTS:DTSID="{4AE5CAF5-CE52-4125-9C53-9E1EACA1B9E2}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[gestionnaire_de_connexions_de_fichiers_plats_1998]"
+      DTS:CreationName="FLATFILE"
+      DTS:Description="Gestionnaire de connexion de fichiers plats 1998"
+      DTS:DTSID="{D9B40F1C-AFD2-4BBC-A184-139BABB43DBB}"
+      DTS:ObjectName="gestionnaire_de_connexions_de_fichiers_plats_1998">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1036"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\damaro\sql_serveur_2012\ssis\export_commande_fichier_plat_1998.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="131"
+              DTS:DataPrecision="6"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NO_COMMANDE"
+              DTS:DTSID="{EB717C3A-9415-42BB-B261-3E9A0FC279B7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="5"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CODE_CLIENT"
+              DTS:DTSID="{4C090617-4621-4736-B978-91A58373E8F3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="131"
+              DTS:DataPrecision="6"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NO_EMPLOYE"
+              DTS:DTSID="{C5A5F09E-2998-44DE-8EEC-05EFD6D1FEAC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="135"
+              DTS:TextQualified="True"
+              DTS:ObjectName="DATE_COMMANDE"
+              DTS:DTSID="{55433040-914C-4094-943F-1E01EF1887C7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="135"
+              DTS:TextQualified="True"
+              DTS:ObjectName="DATE_ENVOI"
+              DTS:DTSID="{C6C1C750-0543-4BD7-92E1-2E9B46E89BB6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="131"
+              DTS:DataPrecision="8"
+              DTS:DataScale="2"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PORT"
+              DTS:DTSID="{809ACC06-9A35-4169-8635-7075A4954CCE}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Tâche export table commande"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tâche de flux de données"
+      DTS:DTSID="{CF37E4E8-0BB2-4E1F-953E-C4F68D77D2C2}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Tâche export table commande"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Tâche export table commande\Destination de fichier plat 1996"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Destination de fichier plat;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
+              description="Destination de fichier plat"
+              localeId="1036"
+              name="Destination de fichier plat 1996"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Spécifie si les données remplaceront ou seront ajoutées au fichier de destination."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Spécifie le texte à enregistrer sur le fichier de destination avant d'enregistrer des données."
+                  expressionType="Notify"
+                  name="Header" />
+                <property
+                  dataType="System.Boolean"
+                  description="Quand le qualificateur de texte est activé, spécifie si le qualificateur de texte dans les données écrites dans le fichier de destination va être échappé ou non."
+                  name="EscapeQualifier">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tâche export table commande\Destination de fichier plat 1996.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[gestionnaire_de_connexions_de_fichiers_plats_1996]"
+                  connectionManagerRefId="Package.ConnectionManagers[gestionnaire_de_connexions_de_fichiers_plats_1996]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Tâche export table commande\Destination de fichier plat 1996.Inputs[Entrée de destination de fichier plat]"
+                  hasSideEffects="true"
+                  name="Entrée de destination de fichier plat">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1996.Inputs[Entrée de destination de fichier plat].Columns[NO_COMMANDE]"
+                      cachedDataType="numeric"
+                      cachedName="NO_COMMANDE"
+                      cachedPrecision="6"
+                      externalMetadataColumnId="Package\Tâche export table commande\Destination de fichier plat 1996.Inputs[Entrée de destination de fichier plat].ExternalColumns[NO_COMMANDE]"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[NO_COMMANDE]" />
+                    <inputColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1996.Inputs[Entrée de destination de fichier plat].Columns[CODE_CLIENT]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="5"
+                      cachedName="CODE_CLIENT"
+                      externalMetadataColumnId="Package\Tâche export table commande\Destination de fichier plat 1996.Inputs[Entrée de destination de fichier plat].ExternalColumns[CODE_CLIENT]"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[CODE_CLIENT]" />
+                    <inputColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1996.Inputs[Entrée de destination de fichier plat].Columns[NO_EMPLOYE]"
+                      cachedDataType="numeric"
+                      cachedName="NO_EMPLOYE"
+                      cachedPrecision="6"
+                      externalMetadataColumnId="Package\Tâche export table commande\Destination de fichier plat 1996.Inputs[Entrée de destination de fichier plat].ExternalColumns[NO_EMPLOYE]"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[NO_EMPLOYE]" />
+                    <inputColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1996.Inputs[Entrée de destination de fichier plat].Columns[DATE_COMMANDE]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="DATE_COMMANDE"
+                      externalMetadataColumnId="Package\Tâche export table commande\Destination de fichier plat 1996.Inputs[Entrée de destination de fichier plat].ExternalColumns[DATE_COMMANDE]"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[DATE_COMMANDE]" />
+                    <inputColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1996.Inputs[Entrée de destination de fichier plat].Columns[DATE_ENVOI]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="DATE_ENVOI"
+                      externalMetadataColumnId="Package\Tâche export table commande\Destination de fichier plat 1996.Inputs[Entrée de destination de fichier plat].ExternalColumns[DATE_ENVOI]"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[DATE_ENVOI]" />
+                    <inputColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1996.Inputs[Entrée de destination de fichier plat].Columns[PORT]"
+                      cachedDataType="numeric"
+                      cachedName="PORT"
+                      cachedPrecision="8"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\Tâche export table commande\Destination de fichier plat 1996.Inputs[Entrée de destination de fichier plat].ExternalColumns[PORT]"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[PORT]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1996.Inputs[Entrée de destination de fichier plat].ExternalColumns[NO_COMMANDE]"
+                      dataType="numeric"
+                      name="NO_COMMANDE"
+                      precision="6" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1996.Inputs[Entrée de destination de fichier plat].ExternalColumns[CODE_CLIENT]"
+                      codePage="1252"
+                      dataType="str"
+                      length="5"
+                      name="CODE_CLIENT" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1996.Inputs[Entrée de destination de fichier plat].ExternalColumns[NO_EMPLOYE]"
+                      dataType="numeric"
+                      name="NO_EMPLOYE"
+                      precision="6" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1996.Inputs[Entrée de destination de fichier plat].ExternalColumns[DATE_COMMANDE]"
+                      dataType="dbTimeStamp"
+                      name="DATE_COMMANDE" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1996.Inputs[Entrée de destination de fichier plat].ExternalColumns[DATE_ENVOI]"
+                      dataType="dbTimeStamp"
+                      name="DATE_ENVOI" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1996.Inputs[Entrée de destination de fichier plat].ExternalColumns[PORT]"
+                      dataType="numeric"
+                      name="PORT"
+                      precision="8"
+                      scale="2" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
+            <component
+              refId="Package\Tâche export table commande\Destination de fichier plat 1997"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Destination de fichier plat;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
+              description="Destination de fichier plat"
+              localeId="1036"
+              name="Destination de fichier plat 1997"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Spécifie si les données remplaceront ou seront ajoutées au fichier de destination."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Spécifie le texte à enregistrer sur le fichier de destination avant d'enregistrer des données."
+                  expressionType="Notify"
+                  name="Header" />
+                <property
+                  dataType="System.Boolean"
+                  description="Quand le qualificateur de texte est activé, spécifie si le qualificateur de texte dans les données écrites dans le fichier de destination va être échappé ou non."
+                  name="EscapeQualifier">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tâche export table commande\Destination de fichier plat 1997.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[gestionnaire_de_connexions_de_fichiers_plats_1997]"
+                  connectionManagerRefId="Package.ConnectionManagers[gestionnaire_de_connexions_de_fichiers_plats_1997]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Tâche export table commande\Destination de fichier plat 1997.Inputs[Entrée de destination de fichier plat]"
+                  hasSideEffects="true"
+                  name="Entrée de destination de fichier plat">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1997.Inputs[Entrée de destination de fichier plat].Columns[NO_COMMANDE]"
+                      cachedDataType="numeric"
+                      cachedName="NO_COMMANDE"
+                      cachedPrecision="6"
+                      externalMetadataColumnId="Package\Tâche export table commande\Destination de fichier plat 1997.Inputs[Entrée de destination de fichier plat].ExternalColumns[NO_COMMANDE]"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[NO_COMMANDE]" />
+                    <inputColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1997.Inputs[Entrée de destination de fichier plat].Columns[CODE_CLIENT]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="5"
+                      cachedName="CODE_CLIENT"
+                      externalMetadataColumnId="Package\Tâche export table commande\Destination de fichier plat 1997.Inputs[Entrée de destination de fichier plat].ExternalColumns[CODE_CLIENT]"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[CODE_CLIENT]" />
+                    <inputColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1997.Inputs[Entrée de destination de fichier plat].Columns[NO_EMPLOYE]"
+                      cachedDataType="numeric"
+                      cachedName="NO_EMPLOYE"
+                      cachedPrecision="6"
+                      externalMetadataColumnId="Package\Tâche export table commande\Destination de fichier plat 1997.Inputs[Entrée de destination de fichier plat].ExternalColumns[NO_EMPLOYE]"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[NO_EMPLOYE]" />
+                    <inputColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1997.Inputs[Entrée de destination de fichier plat].Columns[DATE_COMMANDE]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="DATE_COMMANDE"
+                      externalMetadataColumnId="Package\Tâche export table commande\Destination de fichier plat 1997.Inputs[Entrée de destination de fichier plat].ExternalColumns[DATE_COMMANDE]"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[DATE_COMMANDE]" />
+                    <inputColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1997.Inputs[Entrée de destination de fichier plat].Columns[DATE_ENVOI]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="DATE_ENVOI"
+                      externalMetadataColumnId="Package\Tâche export table commande\Destination de fichier plat 1997.Inputs[Entrée de destination de fichier plat].ExternalColumns[DATE_ENVOI]"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[DATE_ENVOI]" />
+                    <inputColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1997.Inputs[Entrée de destination de fichier plat].Columns[PORT]"
+                      cachedDataType="numeric"
+                      cachedName="PORT"
+                      cachedPrecision="8"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\Tâche export table commande\Destination de fichier plat 1997.Inputs[Entrée de destination de fichier plat].ExternalColumns[PORT]"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[PORT]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1997.Inputs[Entrée de destination de fichier plat].ExternalColumns[NO_COMMANDE]"
+                      dataType="numeric"
+                      name="NO_COMMANDE"
+                      precision="6" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1997.Inputs[Entrée de destination de fichier plat].ExternalColumns[CODE_CLIENT]"
+                      codePage="1252"
+                      dataType="str"
+                      length="5"
+                      name="CODE_CLIENT" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1997.Inputs[Entrée de destination de fichier plat].ExternalColumns[NO_EMPLOYE]"
+                      dataType="numeric"
+                      name="NO_EMPLOYE"
+                      precision="6" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1997.Inputs[Entrée de destination de fichier plat].ExternalColumns[DATE_COMMANDE]"
+                      dataType="dbTimeStamp"
+                      name="DATE_COMMANDE" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1997.Inputs[Entrée de destination de fichier plat].ExternalColumns[DATE_ENVOI]"
+                      dataType="dbTimeStamp"
+                      name="DATE_ENVOI" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1997.Inputs[Entrée de destination de fichier plat].ExternalColumns[PORT]"
+                      dataType="numeric"
+                      name="PORT"
+                      precision="8"
+                      scale="2" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
+            <component
+              refId="Package\Tâche export table commande\Destination de fichier plat 1998"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Destination de fichier plat;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
+              description="Destination de fichier plat"
+              localeId="1036"
+              name="Destination de fichier plat 1998"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Spécifie si les données remplaceront ou seront ajoutées au fichier de destination."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Spécifie le texte à enregistrer sur le fichier de destination avant d'enregistrer des données."
+                  expressionType="Notify"
+                  name="Header" />
+                <property
+                  dataType="System.Boolean"
+                  description="Quand le qualificateur de texte est activé, spécifie si le qualificateur de texte dans les données écrites dans le fichier de destination va être échappé ou non."
+                  name="EscapeQualifier">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tâche export table commande\Destination de fichier plat 1998.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[gestionnaire_de_connexions_de_fichiers_plats_1998]"
+                  connectionManagerRefId="Package.ConnectionManagers[gestionnaire_de_connexions_de_fichiers_plats_1998]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Tâche export table commande\Destination de fichier plat 1998.Inputs[Entrée de destination de fichier plat]"
+                  hasSideEffects="true"
+                  name="Entrée de destination de fichier plat">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1998.Inputs[Entrée de destination de fichier plat].Columns[NO_COMMANDE]"
+                      cachedDataType="numeric"
+                      cachedName="NO_COMMANDE"
+                      cachedPrecision="6"
+                      externalMetadataColumnId="Package\Tâche export table commande\Destination de fichier plat 1998.Inputs[Entrée de destination de fichier plat].ExternalColumns[NO_COMMANDE]"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[NO_COMMANDE]" />
+                    <inputColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1998.Inputs[Entrée de destination de fichier plat].Columns[CODE_CLIENT]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="5"
+                      cachedName="CODE_CLIENT"
+                      externalMetadataColumnId="Package\Tâche export table commande\Destination de fichier plat 1998.Inputs[Entrée de destination de fichier plat].ExternalColumns[CODE_CLIENT]"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[CODE_CLIENT]" />
+                    <inputColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1998.Inputs[Entrée de destination de fichier plat].Columns[NO_EMPLOYE]"
+                      cachedDataType="numeric"
+                      cachedName="NO_EMPLOYE"
+                      cachedPrecision="6"
+                      externalMetadataColumnId="Package\Tâche export table commande\Destination de fichier plat 1998.Inputs[Entrée de destination de fichier plat].ExternalColumns[NO_EMPLOYE]"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[NO_EMPLOYE]" />
+                    <inputColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1998.Inputs[Entrée de destination de fichier plat].Columns[DATE_COMMANDE]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="DATE_COMMANDE"
+                      externalMetadataColumnId="Package\Tâche export table commande\Destination de fichier plat 1998.Inputs[Entrée de destination de fichier plat].ExternalColumns[DATE_COMMANDE]"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[DATE_COMMANDE]" />
+                    <inputColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1998.Inputs[Entrée de destination de fichier plat].Columns[DATE_ENVOI]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="DATE_ENVOI"
+                      externalMetadataColumnId="Package\Tâche export table commande\Destination de fichier plat 1998.Inputs[Entrée de destination de fichier plat].ExternalColumns[DATE_ENVOI]"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[DATE_ENVOI]" />
+                    <inputColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1998.Inputs[Entrée de destination de fichier plat].Columns[PORT]"
+                      cachedDataType="numeric"
+                      cachedName="PORT"
+                      cachedPrecision="8"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\Tâche export table commande\Destination de fichier plat 1998.Inputs[Entrée de destination de fichier plat].ExternalColumns[PORT]"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[PORT]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1998.Inputs[Entrée de destination de fichier plat].ExternalColumns[NO_COMMANDE]"
+                      dataType="numeric"
+                      name="NO_COMMANDE"
+                      precision="6" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1998.Inputs[Entrée de destination de fichier plat].ExternalColumns[CODE_CLIENT]"
+                      codePage="1252"
+                      dataType="str"
+                      length="5"
+                      name="CODE_CLIENT" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1998.Inputs[Entrée de destination de fichier plat].ExternalColumns[NO_EMPLOYE]"
+                      dataType="numeric"
+                      name="NO_EMPLOYE"
+                      precision="6" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1998.Inputs[Entrée de destination de fichier plat].ExternalColumns[DATE_COMMANDE]"
+                      dataType="dbTimeStamp"
+                      name="DATE_COMMANDE" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1998.Inputs[Entrée de destination de fichier plat].ExternalColumns[DATE_ENVOI]"
+                      dataType="dbTimeStamp"
+                      name="DATE_ENVOI" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Destination de fichier plat 1998.Inputs[Entrée de destination de fichier plat].ExternalColumns[PORT]"
+                      dataType="numeric"
+                      name="PORT"
+                      precision="8"
+                      scale="2" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
+            <component
+              refId="Package\Tâche export table commande\Fractionnement conditionnel"
+              componentClassID="Microsoft.ConditionalSplit"
+              contactInfo="Fractionnement conditionnel;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;0"
+              description="Achemine des lignes de données vers différentes sorties, selon le contexte des données. Utilisez des conditions (expressions SSIS) pour spécifier les lignes qui seront acheminées. Par exemple, séparez les enregistrements qui doivent être nettoyés de ceux qui sont prêts à être chargés ou acheminez uniquement un sous-ensemble d'enregistrements."
+              name="Fractionnement conditionnel"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Tâche export table commande\Fractionnement conditionnel.Inputs[Entrée de fractionnement conditionnel]"
+                  description="Entrée vers la transformation de fractionnement conditionnel"
+                  name="Entrée de fractionnement conditionnel">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tâche export table commande\Fractionnement conditionnel.Inputs[Entrée de fractionnement conditionnel].Columns[DATE_COMMANDE]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="DATE_COMMANDE"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[DATE_COMMANDE]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tâche export table commande\Fractionnement conditionnel.Outputs[COMMANDE_1996]"
+                  description="Sortie 1 de la transformation de fractionnement conditionnel"
+                  errorOrTruncationOperation="Calcul"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="COMMANDE_1996"
+                  synchronousInputId="Package\Tâche export table commande\Fractionnement conditionnel.Inputs[Entrée de fractionnement conditionnel]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Spécifie l'expression. Cette version d'expression utilise les identificateurs de traçabilité à la place des noms de colonnes."
+                      name="Expression">[YEAR](#{Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[DATE_COMMANDE]}) == 1996</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Spécifie la version claire de l'expression. Cette version d'expression utilise les noms de colonnes."
+                      expressionType="Notify"
+                      name="FriendlyExpression">YEAR(DATE_COMMANDE) == 1996</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Spécifie la position de la condition dans la liste des conditions que la transformation évalue. L'ordre d'évaluation se fait par ordre croissant de valeur."
+                      name="EvaluationOrder">0</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Tâche export table commande\Fractionnement conditionnel.Outputs[COMMANDE_1997]"
+                  description="Sortie 2 de la transformation de fractionnement conditionnel"
+                  errorOrTruncationOperation="Calcul"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="COMMANDE_1997"
+                  synchronousInputId="Package\Tâche export table commande\Fractionnement conditionnel.Inputs[Entrée de fractionnement conditionnel]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Spécifie l'expression. Cette version d'expression utilise les identificateurs de traçabilité à la place des noms de colonnes."
+                      name="Expression">[YEAR](#{Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[DATE_COMMANDE]}) == 1997</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Spécifie la version claire de l'expression. Cette version d'expression utilise les noms de colonnes."
+                      expressionType="Notify"
+                      name="FriendlyExpression">YEAR(DATE_COMMANDE) == 1997</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Spécifie la position de la condition dans la liste des conditions que la transformation évalue. L'ordre d'évaluation se fait par ordre croissant de valeur."
+                      name="EvaluationOrder">1</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Tâche export table commande\Fractionnement conditionnel.Outputs[COMMANDE_1998]"
+                  description="Sortie 3 de la transformation de fractionnement conditionnel"
+                  errorOrTruncationOperation="Calcul"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="COMMANDE_1998"
+                  synchronousInputId="Package\Tâche export table commande\Fractionnement conditionnel.Inputs[Entrée de fractionnement conditionnel]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Spécifie l'expression. Cette version d'expression utilise les identificateurs de traçabilité à la place des noms de colonnes."
+                      name="Expression">[YEAR](#{Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[DATE_COMMANDE]}) == 1998</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Spécifie la version claire de l'expression. Cette version d'expression utilise les noms de colonnes."
+                      expressionType="Notify"
+                      name="FriendlyExpression">YEAR(DATE_COMMANDE) == 1998</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Spécifie la position de la condition dans la liste des conditions que la transformation évalue. L'ordre d'évaluation se fait par ordre croissant de valeur."
+                      name="EvaluationOrder">2</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Tâche export table commande\Fractionnement conditionnel.Outputs[Sortie par défaut de fractionnement conditionnel]"
+                  description="Sortie par défaut de la transformation de fractionnement conditionnel"
+                  exclusionGroup="1"
+                  name="Sortie par défaut de fractionnement conditionnel"
+                  synchronousInputId="Package\Tâche export table commande\Fractionnement conditionnel.Inputs[Entrée de fractionnement conditionnel]">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      name="IsDefaultOut">true</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Tâche export table commande\Fractionnement conditionnel.Outputs[Sortie d'erreur de fractionnement conditionnel]"
+                  description="Sortie d'erreur de la transformation de fractionnement conditionnel"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de fractionnement conditionnel"
+                  synchronousInputId="Package\Tâche export table commande\Fractionnement conditionnel.Inputs[Entrée de fractionnement conditionnel]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tâche export table commande\Fractionnement conditionnel.Outputs[Sortie d'erreur de fractionnement conditionnel].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tâche export table commande\Fractionnement conditionnel.Outputs[Sortie d'erreur de fractionnement conditionnel].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tâche export table commande\Fractionnement conditionnel.Outputs[Sortie d'erreur de fractionnement conditionnel].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tâche export table commande\Fractionnement conditionnel.Outputs[Sortie d'erreur de fractionnement conditionnel].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tâche export table commande\Source de données"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="Source OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;7"
+              description="Source OLE DB"
+              name="Source de données"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Nombre de secondes avant l'expiration d'une commande.  Une valeur égale à 0 indique un délai d'expiration infini."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowset">[stagiaire].[COMMANDES]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Commande SQL à exécuter."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="Variable contenant la commande SQL à exécuter."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Force l'utilisation de la valeur de propriété DefaultCodePage lors de la description des données caractères."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le mode utilisé pour accéder à la base de données."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="Mappages entre les paramètres de la commande SQL et les variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tâche export table commande\Source de données.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-MO6K1QN\SSIS.gescom]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-MO6K1QN\SSIS.gescom]"
+                  description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB]"
+                  name="Sortie de source OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[NO_COMMANDE]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].ExternalColumns[NO_COMMANDE]"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[NO_COMMANDE]"
+                      name="NO_COMMANDE"
+                      precision="6"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[CODE_CLIENT]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].ExternalColumns[CODE_CLIENT]"
+                      length="5"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[CODE_CLIENT]"
+                      name="CODE_CLIENT"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[NO_EMPLOYE]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].ExternalColumns[NO_EMPLOYE]"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[NO_EMPLOYE]"
+                      name="NO_EMPLOYE"
+                      precision="6"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[DATE_COMMANDE]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].ExternalColumns[DATE_COMMANDE]"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[DATE_COMMANDE]"
+                      name="DATE_COMMANDE"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[DATE_ENVOI]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].ExternalColumns[DATE_ENVOI]"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[DATE_ENVOI]"
+                      name="DATE_ENVOI"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[PORT]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].ExternalColumns[PORT]"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].Columns[PORT]"
+                      name="PORT"
+                      precision="8"
+                      scale="2"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].ExternalColumns[NO_COMMANDE]"
+                      dataType="numeric"
+                      name="NO_COMMANDE"
+                      precision="6" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].ExternalColumns[CODE_CLIENT]"
+                      codePage="1252"
+                      dataType="str"
+                      length="5"
+                      name="CODE_CLIENT" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].ExternalColumns[NO_EMPLOYE]"
+                      dataType="numeric"
+                      name="NO_EMPLOYE"
+                      precision="6" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].ExternalColumns[DATE_COMMANDE]"
+                      dataType="dbTimeStamp"
+                      name="DATE_COMMANDE" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].ExternalColumns[DATE_ENVOI]"
+                      dataType="dbTimeStamp"
+                      name="DATE_ENVOI" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB].ExternalColumns[PORT]"
+                      dataType="numeric"
+                      name="PORT"
+                      precision="8"
+                      scale="2" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Tâche export table commande\Source de données.Outputs[Sortie d'erreur de source OLE DB]"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de source OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tâche export table commande\Source de données.Outputs[Sortie d'erreur de source OLE DB].Columns[NO_COMMANDE]"
+                      dataType="numeric"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie d'erreur de source OLE DB].Columns[NO_COMMANDE]"
+                      name="NO_COMMANDE"
+                      precision="6" />
+                    <outputColumn
+                      refId="Package\Tâche export table commande\Source de données.Outputs[Sortie d'erreur de source OLE DB].Columns[CODE_CLIENT]"
+                      codePage="1252"
+                      dataType="str"
+                      length="5"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie d'erreur de source OLE DB].Columns[CODE_CLIENT]"
+                      name="CODE_CLIENT" />
+                    <outputColumn
+                      refId="Package\Tâche export table commande\Source de données.Outputs[Sortie d'erreur de source OLE DB].Columns[NO_EMPLOYE]"
+                      dataType="numeric"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie d'erreur de source OLE DB].Columns[NO_EMPLOYE]"
+                      name="NO_EMPLOYE"
+                      precision="6" />
+                    <outputColumn
+                      refId="Package\Tâche export table commande\Source de données.Outputs[Sortie d'erreur de source OLE DB].Columns[DATE_COMMANDE]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie d'erreur de source OLE DB].Columns[DATE_COMMANDE]"
+                      name="DATE_COMMANDE" />
+                    <outputColumn
+                      refId="Package\Tâche export table commande\Source de données.Outputs[Sortie d'erreur de source OLE DB].Columns[DATE_ENVOI]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie d'erreur de source OLE DB].Columns[DATE_ENVOI]"
+                      name="DATE_ENVOI" />
+                    <outputColumn
+                      refId="Package\Tâche export table commande\Source de données.Outputs[Sortie d'erreur de source OLE DB].Columns[PORT]"
+                      dataType="numeric"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie d'erreur de source OLE DB].Columns[PORT]"
+                      name="PORT"
+                      precision="8"
+                      scale="2" />
+                    <outputColumn
+                      refId="Package\Tâche export table commande\Source de données.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tâche export table commande\Source de données.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tâche export table commande\Source de données.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Tâche export table commande.Paths[COMMANDE_1996]"
+              endId="Package\Tâche export table commande\Destination de fichier plat 1996.Inputs[Entrée de destination de fichier plat]"
+              name="COMMANDE_1996"
+              startId="Package\Tâche export table commande\Fractionnement conditionnel.Outputs[COMMANDE_1996]" />
+            <path
+              refId="Package\Tâche export table commande.Paths[COMMANDE_1997]"
+              endId="Package\Tâche export table commande\Destination de fichier plat 1997.Inputs[Entrée de destination de fichier plat]"
+              name="COMMANDE_1997"
+              startId="Package\Tâche export table commande\Fractionnement conditionnel.Outputs[COMMANDE_1997]" />
+            <path
+              refId="Package\Tâche export table commande.Paths[COMMANDE_1998]"
+              endId="Package\Tâche export table commande\Destination de fichier plat 1998.Inputs[Entrée de destination de fichier plat]"
+              name="COMMANDE_1998"
+              startId="Package\Tâche export table commande\Fractionnement conditionnel.Outputs[COMMANDE_1998]" />
+            <path
+              refId="Package\Tâche export table commande.Paths[Sortie de source OLE DB]"
+              endId="Package\Tâche export table commande\Fractionnement conditionnel.Inputs[Entrée de fractionnement conditionnel]"
+              name="Sortie de source OLE DB"
+              startId="Package\Tâche export table commande\Source de données.Outputs[Sortie de source OLE DB]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Cette section CDATA contient des informations sur la disposition du package. Elle comprend des informations telles que les coordonnées (x,y), la largeur et la hauteur.-->
+<!--Si vous modifiez manuellement cette section et commettez une erreur, vous pouvez la supprimer. -->
+<!--Le package pourra toujours se charger normalement, mais les informations de disposition précédente seront perdues et le concepteur réorganisera automatiquement les éléments sur l'aire de conception.-->
+<Objects
+  Version="8">
+  <!--Chaque nœud ci-dessous contiendra des propriétés qui n'affectent pas le comportement d'exécution.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="222,42"
+          Id="Package\Tâche export table commande"
+          TopLeft="275,107" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Tâche export table commande">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="169,42"
+          Id="Package\Tâche export table commande\Source de données"
+          TopLeft="200,22.5" />
+        <NodeLayout
+          Size="212,42"
+          Id="Package\Tâche export table commande\Fractionnement conditionnel"
+          TopLeft="183.333333333333,102.5" />
+        <EdgeLayout
+          Id="Package\Tâche export table commande.Paths[Sortie de source OLE DB]"
+          TopLeft="286.916666666667,64.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,38"
+              Start="0,0"
+              End="0,30.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="226,42"
+          Id="Package\Tâche export table commande\Destination de fichier plat 1996"
+          TopLeft="5,175" />
+        <EdgeLayout
+          Id="Package\Tâche export table commande.Paths[COMMANDE_1996]"
+          TopLeft="289.333333333333,144.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-171.333333333333,30.5000000000001"
+              Start="0,0"
+              End="-171.333333333333,23.0000000000001">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,11.25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,11.25"
+                    Point2="0,15.25"
+                    Point3="-4,15.25" />
+                  <mssgle:LineSegment
+                    End="-167.333333333333,15.25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-167.333333333333,15.25"
+                    Point2="-171.333333333333,15.25"
+                    Point3="-171.333333333333,19.25" />
+                  <mssgle:LineSegment
+                    End="-171.333333333333,23.0000000000001" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-126.776451822917,20.25,82.2195703125,10.88671875"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="226,42"
+          Id="Package\Tâche export table commande\Destination de fichier plat 1997"
+          TopLeft="245.833333333333,172.5" />
+        <EdgeLayout
+          Id="Package\Tâche export table commande.Paths[COMMANDE_1997]"
+          TopLeft="323.333333333333,144.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="35.5000000000002,28"
+              Start="0,0"
+              End="35.5000000000002,20.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,7.32584269662923" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,7.32584269662923"
+                    Point2="0,11.3258426966292"
+                    Point3="4,11.3258426966292" />
+                  <mssgle:LineSegment
+                    End="31.5000000000002,11.3258426966292" />
+                  <mssgle:CubicBezierSegment
+                    Point1="31.5000000000002,11.3258426966292"
+                    Point2="35.5000000000002,11.3258426966292"
+                    Point3="35.5000000000002,15.3258426966292" />
+                  <mssgle:LineSegment
+                    End="35.5000000000002,20.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-23.3426953124999,16.3258426966292,82.185390625,10.88671875"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="226,42"
+          Id="Package\Tâche export table commande\Destination de fichier plat 1998"
+          TopLeft="485,175" />
+        <EdgeLayout
+          Id="Package\Tâche export table commande.Paths[COMMANDE_1998]"
+          TopLeft="340.333333333333,144.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="257.666666666667,30.5"
+              Start="0,0"
+              End="257.666666666667,23">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,6.41925465838508" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,6.41925465838508"
+                    Point2="0,10.4192546583851"
+                    Point3="4,10.4192546583851" />
+                  <mssgle:LineSegment
+                    End="253.666666666667,10.4192546583851" />
+                  <mssgle:CubicBezierSegment
+                    Point1="253.666666666667,10.4192546583851"
+                    Point2="257.666666666667,10.4192546583851"
+                    Point3="257.666666666667,14.4192546583851" />
+                  <mssgle:LineSegment
+                    End="257.666666666667,23" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="87.7406380208334,15.4192546583851,82.185390625,10.9013671875"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Tâche export table commande\Source de données">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
