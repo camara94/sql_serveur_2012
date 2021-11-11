@@ -1,0 +1,579 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="11/11/2021 2:48:58 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-MO6K1QN"
+  DTS:CreatorName="DESKTOP-MO6K1QN\damaro"
+  DTS:Description="Description du package SSIS"
+  DTS:DTSID="{0700FF8D-35E1-48E5-B4FD-0A40B330CAA3}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.128"
+  DTS:LocaleID="1036"
+  DTS:MaxErrorCount="0"
+  DTS:ObjectName="export_fichier_plat_client"
+  DTS:VersionGUID="{68269C2B-731C-480C-B1A7-5EAFB5B06256}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DestinationConnectionFlatFile]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{F609A905-534D-41EB-8CEF-89DC2E68F8FD}"
+      DTS:ObjectName="DestinationConnectionFlatFile">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1036"
+          DTS:Unicode="True"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\damaro\sql_serveur_2012\ssis\export_fichier_plat_client.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="5"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CODE_CLIENT"
+              DTS:DTSID="{2D5534F9-CB58-4D9D-BE60-51DF80A05AE4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="40"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SOCIETE"
+              DTS:DTSID="{5B872573-6DD5-49B5-AFF5-4F57F74E34FC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="60"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ADRESSE"
+              DTS:DTSID="{ECCB1212-2252-4DE5-97E0-9005CE93154D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="30"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="VILLE"
+              DTS:DTSID="{9D77E252-2204-4145-9DA2-3DC60A390E8A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="10"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CODE_POSTAL"
+              DTS:DTSID="{5E8C0167-21E1-4A2E-BA0E-DEEE23C86FBF}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="15"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PAYS"
+              DTS:DTSID="{CFFB3A85-7F63-4072-B0E2-826629CB8934}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="24"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TELEPHONE"
+              DTS:DTSID="{58469585-F0BF-4F36-AD8D-44E52A64EDD2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="24"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FAX"
+              DTS:DTSID="{950EEA6F-CED6-4BD0-BC03-0501D1C0E3B7}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[SourceConnectionOLEDB]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{3BC7F8B2-9DCF-44B6-B8FE-179EC50180E9}"
+      DTS:ObjectName="SourceConnectionOLEDB">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-MO6K1QN\SSIS;Initial Catalog=gescom;Provider=SQLNCLI11;Integrated Security=SSPI;Auto Translate=false;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Tâche de flux de données 1"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:DelayValidation="True"
+      DTS:DTSID="{328120DD-841E-4856-A93C-355405785D4D}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:FailPackageOnFailure="True"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Tâche de flux de données 1"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          defaultBufferSize="3145728"
+          version="1">
+          <components>
+            <component
+              refId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Destination de fichier plat;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
+              description="Destination de fichier plat"
+              localeId="1036"
+              name="Destination - export_fichier_plat_client_txt"
+              validateExternalMetadata="False"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Spécifie si les données remplaceront ou seront ajoutées au fichier de destination."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le texte à enregistrer sur le fichier de destination avant d'enregistrer des données."
+                  expressionType="Notify"
+                  name="Header"></property>
+                <property
+                  dataType="System.Boolean"
+                  description="Quand le qualificateur de texte est activé, spécifie si le qualificateur de texte dans les données écrites dans le fichier de destination va être échappé ou non."
+                  name="EscapeQualifier">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DestinationConnectionFlatFile]"
+                  connectionManagerRefId="Package.ConnectionManagers[DestinationConnectionFlatFile]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat]"
+                  hasSideEffects="true"
+                  name="Entrée de destination de fichier plat">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].Columns[CODE_CLIENT]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="5"
+                      cachedName="CODE_CLIENT"
+                      externalMetadataColumnId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].ExternalColumns[CODE_CLIENT]"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[CODE_CLIENT]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].Columns[SOCIETE]"
+                      cachedDataType="wstr"
+                      cachedLength="40"
+                      cachedName="SOCIETE"
+                      externalMetadataColumnId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].ExternalColumns[SOCIETE]"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[SOCIETE]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].Columns[ADRESSE]"
+                      cachedDataType="wstr"
+                      cachedLength="60"
+                      cachedName="ADRESSE"
+                      externalMetadataColumnId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].ExternalColumns[ADRESSE]"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[ADRESSE]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].Columns[VILLE]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="30"
+                      cachedName="VILLE"
+                      externalMetadataColumnId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].ExternalColumns[VILLE]"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[VILLE]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].Columns[CODE_POSTAL]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="10"
+                      cachedName="CODE_POSTAL"
+                      externalMetadataColumnId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].ExternalColumns[CODE_POSTAL]"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[CODE_POSTAL]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].Columns[PAYS]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="15"
+                      cachedName="PAYS"
+                      externalMetadataColumnId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].ExternalColumns[PAYS]"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[PAYS]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].Columns[TELEPHONE]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="24"
+                      cachedName="TELEPHONE"
+                      externalMetadataColumnId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].ExternalColumns[TELEPHONE]"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[TELEPHONE]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].Columns[FAX]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="24"
+                      cachedName="FAX"
+                      externalMetadataColumnId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].ExternalColumns[FAX]"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[FAX]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].ExternalColumns[CODE_CLIENT]"
+                      codePage="1252"
+                      dataType="str"
+                      length="5"
+                      name="CODE_CLIENT" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].ExternalColumns[SOCIETE]"
+                      dataType="wstr"
+                      length="40"
+                      name="SOCIETE" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].ExternalColumns[ADRESSE]"
+                      dataType="wstr"
+                      length="60"
+                      name="ADRESSE" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].ExternalColumns[VILLE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
+                      name="VILLE" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].ExternalColumns[CODE_POSTAL]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      name="CODE_POSTAL" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].ExternalColumns[PAYS]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      name="PAYS" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].ExternalColumns[TELEPHONE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="24"
+                      name="TELEPHONE" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat].ExternalColumns[FAX]"
+                      codePage="1252"
+                      dataType="str"
+                      length="24"
+                      name="FAX" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
+            <component
+              refId="Package\Tâche de flux de données 1\Source - CLIENTS"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="Source OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;7"
+              description="Source OLE DB"
+              name="Source - CLIENTS"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Nombre de secondes avant l'expiration d'une commande.  Une valeur égale à 0 indique un délai d'expiration infini."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowset">[stagiaire].[CLIENTS]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Commande SQL à exécuter."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="Variable contenant la commande SQL à exécuter."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Force l'utilisation de la valeur de propriété DefaultCodePage lors de la description des données caractères."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le mode utilisé pour accéder à la base de données."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="Mappages entre les paramètres de la commande SQL et les variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tâche de flux de données 1\Source - CLIENTS.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[SourceConnectionOLEDB]"
+                  connectionManagerRefId="Package.ConnectionManagers[SourceConnectionOLEDB]"
+                  description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB]"
+                  name="Sortie de source OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[CODE_CLIENT]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].ExternalColumns[CODE_CLIENT]"
+                      length="5"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[CODE_CLIENT]"
+                      name="CODE_CLIENT"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[SOCIETE]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].ExternalColumns[SOCIETE]"
+                      length="40"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[SOCIETE]"
+                      name="SOCIETE"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[ADRESSE]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].ExternalColumns[ADRESSE]"
+                      length="60"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[ADRESSE]"
+                      name="ADRESSE"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[VILLE]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].ExternalColumns[VILLE]"
+                      length="30"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[VILLE]"
+                      name="VILLE"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[CODE_POSTAL]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].ExternalColumns[CODE_POSTAL]"
+                      length="10"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[CODE_POSTAL]"
+                      name="CODE_POSTAL"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[PAYS]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].ExternalColumns[PAYS]"
+                      length="15"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[PAYS]"
+                      name="PAYS"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[TELEPHONE]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].ExternalColumns[TELEPHONE]"
+                      length="24"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[TELEPHONE]"
+                      name="TELEPHONE"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[FAX]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].ExternalColumns[FAX]"
+                      length="24"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].Columns[FAX]"
+                      name="FAX"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].ExternalColumns[CODE_CLIENT]"
+                      codePage="1252"
+                      dataType="str"
+                      length="5"
+                      name="CODE_CLIENT" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].ExternalColumns[SOCIETE]"
+                      dataType="wstr"
+                      length="40"
+                      name="SOCIETE" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].ExternalColumns[ADRESSE]"
+                      dataType="wstr"
+                      length="60"
+                      name="ADRESSE" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].ExternalColumns[VILLE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
+                      name="VILLE" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].ExternalColumns[CODE_POSTAL]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      name="CODE_POSTAL" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].ExternalColumns[PAYS]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      name="PAYS" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].ExternalColumns[TELEPHONE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="24"
+                      name="TELEPHONE" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB].ExternalColumns[FAX]"
+                      codePage="1252"
+                      dataType="str"
+                      length="24"
+                      name="FAX" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie d'erreur de source OLE DB]"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de source OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie d'erreur de source OLE DB].Columns[CODE_CLIENT]"
+                      codePage="1252"
+                      dataType="str"
+                      length="5"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie d'erreur de source OLE DB].Columns[CODE_CLIENT]"
+                      name="CODE_CLIENT" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie d'erreur de source OLE DB].Columns[SOCIETE]"
+                      dataType="wstr"
+                      length="40"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie d'erreur de source OLE DB].Columns[SOCIETE]"
+                      name="SOCIETE" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie d'erreur de source OLE DB].Columns[ADRESSE]"
+                      dataType="wstr"
+                      length="60"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie d'erreur de source OLE DB].Columns[ADRESSE]"
+                      name="ADRESSE" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie d'erreur de source OLE DB].Columns[VILLE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie d'erreur de source OLE DB].Columns[VILLE]"
+                      name="VILLE" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie d'erreur de source OLE DB].Columns[CODE_POSTAL]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie d'erreur de source OLE DB].Columns[CODE_POSTAL]"
+                      name="CODE_POSTAL" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie d'erreur de source OLE DB].Columns[PAYS]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie d'erreur de source OLE DB].Columns[PAYS]"
+                      name="PAYS" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie d'erreur de source OLE DB].Columns[TELEPHONE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="24"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie d'erreur de source OLE DB].Columns[TELEPHONE]"
+                      name="TELEPHONE" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie d'erreur de source OLE DB].Columns[FAX]"
+                      codePage="1252"
+                      dataType="str"
+                      length="24"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie d'erreur de source OLE DB].Columns[FAX]"
+                      name="FAX" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Tâche de flux de données 1.Paths[Sortie de source OLE DB]"
+              endId="Package\Tâche de flux de données 1\Destination - export_fichier_plat_client_txt.Inputs[Entrée de destination de fichier plat]"
+              name="Sortie de source OLE DB"
+              startId="Package\Tâche de flux de données 1\Source - CLIENTS.Outputs[Sortie de source OLE DB]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+</DTS:Executable>
