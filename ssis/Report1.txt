@@ -1,0 +1,56 @@
+L'exécution s'est terminée avec succès
+
+- Initialisation de la tâche de flux de données (Success)
+
+- Initialisation des connexions (Success)
+
+- Définition de la commande SQL (Success)
+
+- Définition de la connexion source (Success)
+
+- Définition de la connexion de destination (Success)
+
+- Validation (Success)
+	Messages
+	* Avertissement 0x80049304: Tâche de flux de données 1: Avertissement : impossible d'ouvrir la mémoire partagée pour communiquer avec la DLL de performance ; les compteurs de performance du flux de données ne sont pas disponibles. Pour résoudre le problème, exécutez ce package en tant qu'administrateur ou sur la console du système.
+	 (Assistant Importation et Exportation SQL Server)
+	
+
+- Enregistrement en cours (Success)
+
+- Préparer pour l'exécution (Success)
+
+- Pré-exécuter (Success)
+	Messages
+	* Informations 0x402090dc: Tâche de flux de données 1: Le traitement du fichier « C:\Users\damaro\sql_serveur_2012\ssis\export_fichier_plat_client.txt » a démarré.
+	 (Assistant Importation et Exportation SQL Server)
+	
+
+- Exécution (Success)
+	Messages
+	* Informations 0x402090de: Tâche de flux de données 1: Le nombre total de lignes de données traitées pour le fichier « C:\Users\damaro\sql_serveur_2012\ssis\export_fichier_plat_client.txt » est 92.
+	 (Assistant Importation et Exportation SQL Server)
+	
+
+- Copie vers [dbo].[clients] (Success)
+	* 91 lignes transférées
+
+	Messages
+	* Informations 0x402090df: Tâche de flux de données 1: La validation finale de l'insertion de données dans « Destination - clients » a commencé.
+	 (Assistant Importation et Exportation SQL Server)
+	
+	* Informations 0x402090e0: Tâche de flux de données 1: La validation finale de l'insertion de données dans « Destination - clients » s'est terminée.
+	 (Assistant Importation et Exportation SQL Server)
+	
+
+- Post-exécuter (Success)
+	Messages
+	* Informations 0x402090dd: Tâche de flux de données 1: Le traitement du fichier « C:\Users\damaro\sql_serveur_2012\ssis\export_fichier_plat_client.txt » est terminé.
+	 (Assistant Importation et Exportation SQL Server)
+	
+	* Informations 0x4004300b: Tâche de flux de données 1:  « Destination - clients » a écrit 91 lignes.
+	 (Assistant Importation et Exportation SQL Server)
+	
+
+
+
