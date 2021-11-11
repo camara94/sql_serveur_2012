@@ -520,3 +520,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Flux de données
 
 ![image 92](images/92.png)
+
+## Utilisation de SSIS
