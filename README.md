@@ -536,3 +536,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Déploiement du package
 
 ![deployer](images/deployer.png)
+
+## BCP
+
+![image 94](images/94.png)
