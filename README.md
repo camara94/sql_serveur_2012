@@ -524,3 +524,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Utilisation de SSIS
 
 ![image 93](images/93.png)
+
+## ETL
+### Création du fractionnement Conditionnelle
+![image 93](images/exemple_etl_avec_le_concepteur.png)
