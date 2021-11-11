@@ -501,3 +501,6 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 
 ![image 87](images/87.png)
 
+## Architecture de transfère
+
+![image 88](images/88.png)
