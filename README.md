@@ -532,3 +532,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Un package SSIS
 
 ![image 93](images/exemple_etl_avec_le_concepteur.png)
+
+## Déploiement du package
+
+![deployer](images/deployer.png)
