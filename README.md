@@ -504,3 +504,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Architecture de transfère
 
 ![image 88](images/88.png)
+
+## Les outils de transfert
+
+![image 89](images/89.png)
