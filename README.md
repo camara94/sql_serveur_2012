@@ -516,3 +516,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Architecture SSIS
 
 ![image 91](images/91.png)
+
+## Flux de données
