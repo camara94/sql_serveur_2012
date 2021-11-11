@@ -522,3 +522,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ![image 92](images/92.png)
 
 ## Utilisation de SSIS
+
+![image 93](images/93.png)
