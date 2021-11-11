@@ -1,0 +1,1 @@
+bcp "SELECT * FROM gescom.stagiaire.clients" queryout c:\Users\damaro\sql_serveur_2012\bcp\clients.txt -c -t ";" -r \n -T -S DESKTOP-MO6K1QN\SSIS
