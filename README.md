@@ -518,3 +518,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ![image 91](images/91.png)
 
 ## Flux de données
+
+![image 92](images/92.png)
