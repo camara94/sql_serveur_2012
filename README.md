@@ -544,3 +544,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## BULK INSERT
 
 ![image 95](images/95.png)
+
+## Commande BULK INSERT
