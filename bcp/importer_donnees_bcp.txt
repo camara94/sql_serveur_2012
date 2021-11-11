@@ -1,0 +1,8 @@
+## D'abord je crée une table damaro qui a la même structure que la table clients
+SELECT * INTO stagiaire.damaro  FROM stagiaire.CLIENTS;
+
+## Ensuite je la vide de contenu
+DELETE  FROM stagiaire.damaro;
+
+## Puis je charge la table damaro à partir d'un fichier txt externe
+bcp gescom.stagiaire.damaro in c:\Users\damaro\sql_serveur_2012\bcp\clients.txt -c -t ";" -r \n -T -S DESKTOP-MO6K1QN\SSIS 
