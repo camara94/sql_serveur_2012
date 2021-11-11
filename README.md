@@ -527,4 +527,8 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 
 ## ETL
 ### Création du fractionnement Conditionnelle
+![image 93](images/fractionnement_conditionnelle.png)
+
+## Un package SSIS
+
 ![image 93](images/exemple_etl_avec_le_concepteur.png)
