@@ -540,3 +540,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## BCP
 
 ![image 94](images/94.png)
+
+## BULK INSERT
+
+![image 95](images/95.png)
