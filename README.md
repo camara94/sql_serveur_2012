@@ -512,3 +512,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## SSIS
 
 ![image 90](images/90.png)
+
+## Architecture SSIS
+
+![image 91](images/91.png)
