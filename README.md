@@ -580,3 +580,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ![image 104](images/104.png)
 
 ## Les credentials
+
+![image 105](images/105.png)
