@@ -560,3 +560,10 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Mode d'authentification
 
 ![image 99](images/99.png)
+
+## Entités de sécurités
+
+![image 100](images/100.png)
+
+## Configuré les entités de sécurité
+
