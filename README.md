@@ -608,3 +608,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Schema
 
 ![image 112](images/112.png)
+
+## Comment créer un schema
+
+![image 113](images/113.png)
