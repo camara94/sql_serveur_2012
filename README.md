@@ -598,3 +598,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ![image 109](images/109.png)
 
 ## Comment créer un utilisateur de base de données
+
+![image 110](images/110.png)
