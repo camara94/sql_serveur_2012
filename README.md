@@ -556,3 +556,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Architecture de sécurité
 
 ![image 98](images/98.png)
+
+## Mode d'authentification
+
+![image 99](images/99.png)
