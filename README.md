@@ -548,3 +548,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Commande BULK INSERT
 
 ![image 96](images/96.png)
+
+## Authentification SLQ Serveur
+
+![image 97](images/97.png)
