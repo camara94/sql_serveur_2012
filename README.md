@@ -570,3 +570,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ![image 101](images/101.png)
 
 ![image 102](images/102.png)
+
+## Entités de sécurités - vues systèmes
