@@ -578,3 +578,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Modifiés les entités de sécurités
 
 ![image 104](images/104.png)
+
+## Les credentials
