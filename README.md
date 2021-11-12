@@ -604,3 +604,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Afficher les information sur les utilisateurs
 
 ![image 111](images/111.png)
+
+## Schema
+
+![image 112](images/112.png)
