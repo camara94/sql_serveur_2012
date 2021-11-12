@@ -552,3 +552,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Authentification SLQ Serveur
 
 ![image 97](images/97.png)
+
+## Architecture de sécurité
+
+![image 98](images/98.png)
