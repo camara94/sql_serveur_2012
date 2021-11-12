@@ -592,3 +592,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ![image 107](images/107.png)
 
 ## Les utilisateur particuliers
+
+![image 108](images/108.png)
