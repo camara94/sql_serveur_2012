@@ -586,3 +586,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Comment créer un credentials
 
 ![image 106](images/106.png)
+
+## Les utilisateur de base de données
