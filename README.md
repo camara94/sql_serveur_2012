@@ -567,3 +567,4 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 
 ## Configuré les entités de sécurité
 
+![image 101](images/101.png)
