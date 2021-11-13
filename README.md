@@ -648,3 +648,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Les alertes
 
 ![image 122](images/122.png)
+
+## Quand déclencher une alerte
+
+![image 123](images/123.png)
