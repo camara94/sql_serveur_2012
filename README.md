@@ -644,3 +644,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Les opérateurs
 
 ![image 121](images/121.png)
+
+## Les alertes
+
+![image 122](images/122.png)
