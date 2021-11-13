@@ -654,3 +654,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ![image 123](images/123.png)
 
 ## Création d'une alerte
+
+![image 124](images/124.png)
