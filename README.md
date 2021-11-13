@@ -638,3 +638,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ![image 119](images/119.png)
 
 ## Configuration du  service de messagerie
+
+![image 120](images/120s.png)
