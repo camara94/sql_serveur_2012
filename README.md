@@ -612,3 +612,8 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Comment créer un schema
 
 ![image 113](images/113.png)
+
+## Les droits d'accès sous SQL Serveur
+
+![image 114](images/114.png)
+
