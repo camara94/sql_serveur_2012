@@ -617,3 +617,4 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 
 ![image 114](images/114.png)
 
+## Gestion des privilèges
