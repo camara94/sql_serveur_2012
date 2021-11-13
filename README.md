@@ -624,3 +624,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## La liste de quelques privilèges
 
 ![image 116](images/116.png)
+
+## Syntaxe
