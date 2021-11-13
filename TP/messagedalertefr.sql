@@ -1,0 +1,1 @@
+SELECT * FROM sysmessages WHERE msglangid=1036 ORDER BY severity
