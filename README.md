@@ -629,6 +629,6 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 
 ![image 117](images/117.png)
 
-## Privilèges sur les objets
+## Privilèges sur les objets  
 
 ![image 117](images/118.png)
