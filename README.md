@@ -631,4 +631,8 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 
 ## Privilèges sur les objets  
 
-![image 117](images/118.png)
+![image 118](images/118.png)
+
+## Agent SQL Serveur
+
+![image 119](images/119.png)
