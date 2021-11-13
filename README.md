@@ -626,3 +626,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ![image 116](images/116.png)
 
 ## Syntaxe
+
+![image 117](images/117.png)
