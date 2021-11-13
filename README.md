@@ -636,3 +636,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Agent SQL Serveur
 
 ![image 119](images/119.png)
+
+## Configuration du  service de messagerie
