@@ -664,3 +664,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Plan de maintenance
 
 ![image 126](images/126.png)
+
+![image 127](images/126.png)
