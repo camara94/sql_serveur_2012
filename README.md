@@ -670,3 +670,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Audit au niveau de SQL Serveur
 
 ![image 128](images/128.png)
+
+## Audit au niveau d'une base de données
+
+
