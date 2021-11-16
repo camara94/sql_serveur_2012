@@ -673,4 +673,4 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 
 ## Audit au niveau d'une base de données
 
-
+![image 129](images/129.png)
