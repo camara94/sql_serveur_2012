@@ -1,0 +1,19 @@
+USE [master]
+
+GO
+
+CREATE SERVER AUDIT [Audit_Action_Base_gescom]
+TO FILE 
+(	FILEPATH = N'D:\mesbackupsqlserveur\backup\gescom'
+	,MAXSIZE = 0 MB
+	,MAX_ROLLOVER_FILES = 2147483647
+	,RESERVE_DISK_SPACE = OFF
+)
+WITH
+(	QUEUE_DELAY = 1000
+	,ON_FAILURE = CONTINUE
+)
+
+GO
+
+
