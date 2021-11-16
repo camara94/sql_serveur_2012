@@ -678,3 +678,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## SQL Profiler
 
 ![image 130](images/130.png)
+
+## Déclencheur DDL
+
+![image 131](images/131.png)
