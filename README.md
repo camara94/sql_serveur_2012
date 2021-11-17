@@ -682,3 +682,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Déclencheur DDL
 
 ![image 131](images/131.png)
+
+## Le moniteur de performance
+
+![image 132](images/132.png)
