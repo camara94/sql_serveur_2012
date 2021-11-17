@@ -688,3 +688,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ![image 132](images/132.png)
 
 ![image 133](images/133.png)
+
+## Les compteurs de performance personnalisés
+
+![image 134](images/134.png)
