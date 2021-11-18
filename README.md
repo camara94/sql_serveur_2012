@@ -692,3 +692,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Les compteurs de performance personnalisés
 
 ![image 134](images/134.png)
+
+## Corrélation des fichiers de traces
+
+![image 135](images/135.png)
