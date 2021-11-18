@@ -700,3 +700,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Assistant Paramétrage du moteur de base de données
 
 ![image 136](images/136.png)
+
+## Les plans d'éxecution des requêtes
+
+![image 137](images/137.png)
