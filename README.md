@@ -696,3 +696,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Corrélation des fichiers de traces
 
 ![image 135](images/135.png)
+
+## Assistant Paramétrage du moteur de base de données
