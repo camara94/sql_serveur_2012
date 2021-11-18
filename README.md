@@ -698,3 +698,5 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ![image 135](images/135.png)
 
 ## Assistant Paramétrage du moteur de base de données
+
+![image 136](images/136.png)
