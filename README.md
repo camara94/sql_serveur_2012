@@ -716,3 +716,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Types de synchronisation
 
 ![image 140](images/140.png)
+
+## Conclusion
+
+![image 141](images/141.png)
