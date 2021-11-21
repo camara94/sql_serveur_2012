@@ -704,3 +704,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Les plans d'éxecution des requêtes
 
 ![image 137](images/137.png)
+
+## Configuration de la mise en mirroir
+
+![image 138](images/138.png)
