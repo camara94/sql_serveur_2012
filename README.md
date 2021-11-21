@@ -712,3 +712,7 @@ c'est la durée à travers laquelle sql serveur ou tout serveur de base de doné
 ## Architecture
 
 ![image 139](images/139.png)
+
+## Types de synchronisation
+
+![image 140](images/140.png)
